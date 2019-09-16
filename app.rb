@@ -29,6 +29,8 @@ get '/:operation/:number1/:number2' do
   case @operation
     when "add"
     (@number1 + @number2).to_s
+  when "subtract"
+    (@number1 - @number2)
 
 end
 end

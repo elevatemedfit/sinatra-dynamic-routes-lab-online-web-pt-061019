@@ -28,7 +28,7 @@ get '/:operation/:number1/:number2' do
   @number2 = params[:number2]
   case @operation
     when "add"
-    @number1 + @number2
+    (@number1 + @number2).to_s
 
 end
 end

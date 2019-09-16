@@ -25,7 +25,7 @@ class App < Sinatra::Base
   @word4 = params[:word4]
   @word5 = params[:word5]
   @result = ("#{@word1} + #{@word2} + #{@word3} + #{@word4} + #{@word5}")
-
+@result.join(.)
 end
 
 end
